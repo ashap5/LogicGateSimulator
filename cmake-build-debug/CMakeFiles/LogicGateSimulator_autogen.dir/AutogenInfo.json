@@ -488,6 +488,18 @@
 			null
 		],
 		[
+			"/home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/NandGate.h",
+			"MU",
+			"U5OY6FCNSX/moc_NandGate.cpp",
+			null
+		],
+		[
+			"/home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/NorGate.h",
+			"MU",
+			"U5OY6FCNSX/moc_NorGate.cpp",
+			null
+		],
+		[
 			"/home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/NotGate.h",
 			"MU",
 			"U5OY6FCNSX/moc_NotGate.cpp",
@@ -509,6 +521,12 @@
 			"/home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/SourceNode.h",
 			"MU",
 			"U5OY6FCNSX/moc_SourceNode.cpp",
+			null
+		],
+		[
+			"/home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/XorGate.h",
+			"MU",
+			"U5OY6FCNSX/moc_XorGate.cpp",
 			null
 		],
 		[
@@ -648,6 +666,16 @@
 			null
 		],
 		[
+			"/home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/NandGate.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/NorGate.cpp",
+			"MU",
+			null
+		],
+		[
 			"/home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/NotGate.cpp",
 			"MU",
 			null
@@ -664,6 +692,11 @@
 		],
 		[
 			"/home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/SourceNode.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/XorGate.cpp",
 			"MU",
 			null
 		],

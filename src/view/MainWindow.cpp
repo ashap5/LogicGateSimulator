@@ -76,6 +76,24 @@ namespace view {
             qDebug() << "Clear Circuit button pressed";
             controller->clearCircuit();
         });
+        connect(toolbar, &ToolbarWidget::addXorGate, this, [this]() {
+            qDebug() << "XOR Gate button pressed";
+            QPointF center = canvas->mapToScene(canvas->viewport()->rect().center());
+            controller->addXorGate(center);
+        });
+
+        connect(toolbar, &ToolbarWidget::addNandGate, this, [this]() {
+            qDebug() << "NAND Gate button pressed";
+            QPointF center = canvas->mapToScene(canvas->viewport()->rect().center());
+            controller->addNandGate(center);
+        });
+
+        connect(toolbar, &ToolbarWidget::addNorGate, this, [this]() {
+            qDebug() << "NOR Gate button pressed";
+            QPointF center = canvas->mapToScene(canvas->viewport()->rect().center());
+            controller->addNorGate(center);
+        });
+
     }
 
     void MainWindow::createActions() {

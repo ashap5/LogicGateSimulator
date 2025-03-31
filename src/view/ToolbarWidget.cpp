@@ -45,6 +45,19 @@ namespace view {
         notGateButton = createToolButton("NOT");
         buttonGroup->addButton(notGateButton);
         mainLayout->addWidget(notGateButton);
+
+        // After the notGateButton
+        xorGateButton = createToolButton("XOR");
+        buttonGroup->addButton(xorGateButton);
+        mainLayout->addWidget(xorGateButton);
+
+        nandGateButton = createToolButton("NAND");
+        buttonGroup->addButton(nandGateButton);
+        mainLayout->addWidget(nandGateButton);
+
+        norGateButton = createToolButton("NOR");
+        buttonGroup->addButton(norGateButton);
+        mainLayout->addWidget(norGateButton);
         
         mainLayout->addSpacing(10);
         
@@ -94,6 +107,9 @@ namespace view {
         connect(sinkButton, &QPushButton::clicked, this, &ToolbarWidget::handleButtonClick);
         connect(simulateButton, &QPushButton::clicked, this, &ToolbarWidget::simulate);
         connect(clearButton, &QPushButton::clicked, this, &ToolbarWidget::clearCircuit);
+        connect(xorGateButton, &QPushButton::clicked, this, &ToolbarWidget::handleButtonClick);
+        connect(nandGateButton, &QPushButton::clicked, this, &ToolbarWidget::handleButtonClick);
+        connect(norGateButton, &QPushButton::clicked, this, &ToolbarWidget::handleButtonClick);
         
         setLayout(mainLayout);
     }
@@ -129,6 +145,12 @@ namespace view {
             emit addSourceNode(model::LogicState::LOW);
         } else if (sender == sinkButton) {
             emit addSinkNode();
+        } else if (sender == xorGateButton) {
+            emit addXorGate();
+        } else if (sender == nandGateButton) {
+            emit addNandGate();
+        } else if (sender == norGateButton) {
+            emit addNorGate();
         }
     }
 }

@@ -121,6 +121,22 @@ build CMakeFiles/LogicGateSimulator.dir/src/model/gates/AndGate.cpp.o: CXX_COMPI
   OBJECT_DIR = CMakeFiles/LogicGateSimulator.dir
   OBJECT_FILE_DIR = CMakeFiles/LogicGateSimulator.dir/src/model/gates
 
+build CMakeFiles/LogicGateSimulator.dir/src/model/gates/NandGate.cpp.o: CXX_COMPILER__LogicGateSimulator_unscanned_Debug /home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/NandGate.cpp || cmake_object_order_depends_target_LogicGateSimulator
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/LogicGateSimulator.dir/src/model/gates/NandGate.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always -mno-direct-extern-access
+  INCLUDES = -I/home/pasha/CLionProjects/LogicGateSimulatorTest/cmake-build-debug/LogicGateSimulator_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui
+  OBJECT_DIR = CMakeFiles/LogicGateSimulator.dir
+  OBJECT_FILE_DIR = CMakeFiles/LogicGateSimulator.dir/src/model/gates
+
+build CMakeFiles/LogicGateSimulator.dir/src/model/gates/NorGate.cpp.o: CXX_COMPILER__LogicGateSimulator_unscanned_Debug /home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/NorGate.cpp || cmake_object_order_depends_target_LogicGateSimulator
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/LogicGateSimulator.dir/src/model/gates/NorGate.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always -mno-direct-extern-access
+  INCLUDES = -I/home/pasha/CLionProjects/LogicGateSimulatorTest/cmake-build-debug/LogicGateSimulator_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui
+  OBJECT_DIR = CMakeFiles/LogicGateSimulator.dir
+  OBJECT_FILE_DIR = CMakeFiles/LogicGateSimulator.dir/src/model/gates
+
 build CMakeFiles/LogicGateSimulator.dir/src/model/gates/NotGate.cpp.o: CXX_COMPILER__LogicGateSimulator_unscanned_Debug /home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/NotGate.cpp || cmake_object_order_depends_target_LogicGateSimulator
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/LogicGateSimulator.dir/src/model/gates/NotGate.cpp.o.d
@@ -148,6 +164,14 @@ build CMakeFiles/LogicGateSimulator.dir/src/model/gates/SinkNode.cpp.o: CXX_COMP
 build CMakeFiles/LogicGateSimulator.dir/src/model/gates/SourceNode.cpp.o: CXX_COMPILER__LogicGateSimulator_unscanned_Debug /home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/SourceNode.cpp || cmake_object_order_depends_target_LogicGateSimulator
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/LogicGateSimulator.dir/src/model/gates/SourceNode.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always -mno-direct-extern-access
+  INCLUDES = -I/home/pasha/CLionProjects/LogicGateSimulatorTest/cmake-build-debug/LogicGateSimulator_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui
+  OBJECT_DIR = CMakeFiles/LogicGateSimulator.dir
+  OBJECT_FILE_DIR = CMakeFiles/LogicGateSimulator.dir/src/model/gates
+
+build CMakeFiles/LogicGateSimulator.dir/src/model/gates/XorGate.cpp.o: CXX_COMPILER__LogicGateSimulator_unscanned_Debug /home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/XorGate.cpp || cmake_object_order_depends_target_LogicGateSimulator
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/LogicGateSimulator.dir/src/model/gates/XorGate.cpp.o.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always -mno-direct-extern-access
   INCLUDES = -I/home/pasha/CLionProjects/LogicGateSimulatorTest/cmake-build-debug/LogicGateSimulator_autogen/include -isystem /usr/include/qt6/QtCore -isystem /usr/include/qt6 -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtWidgets -isystem /usr/include/qt6/QtGui
   OBJECT_DIR = CMakeFiles/LogicGateSimulator.dir
@@ -209,7 +233,7 @@ build CMakeFiles/LogicGateSimulator.dir/src/view/ToolbarWidget.cpp.o: CXX_COMPIL
 #############################################
 # Link the executable LogicGateSimulator
 
-build LogicGateSimulator: CXX_EXECUTABLE_LINKER__LogicGateSimulator_Debug CMakeFiles/LogicGateSimulator.dir/LogicGateSimulator_autogen/mocs_compilation.cpp.o CMakeFiles/LogicGateSimulator.dir/src/controller/ConnectionManager.cpp.o CMakeFiles/LogicGateSimulator.dir/src/controller/SimulationController.cpp.o CMakeFiles/LogicGateSimulator.dir/src/main.cpp.o CMakeFiles/LogicGateSimulator.dir/src/model/Circuit.cpp.o CMakeFiles/LogicGateSimulator.dir/src/model/Connection.cpp.o CMakeFiles/LogicGateSimulator.dir/src/model/LogicGate.cpp.o CMakeFiles/LogicGateSimulator.dir/src/model/Pin.cpp.o CMakeFiles/LogicGateSimulator.dir/src/model/gates/AndGate.cpp.o CMakeFiles/LogicGateSimulator.dir/src/model/gates/NotGate.cpp.o CMakeFiles/LogicGateSimulator.dir/src/model/gates/OrGate.cpp.o CMakeFiles/LogicGateSimulator.dir/src/model/gates/SinkNode.cpp.o CMakeFiles/LogicGateSimulator.dir/src/model/gates/SourceNode.cpp.o CMakeFiles/LogicGateSimulator.dir/src/view/ConnectionGraphicsItem.cpp.o CMakeFiles/LogicGateSimulator.dir/src/view/MainWindow.cpp.o CMakeFiles/LogicGateSimulator.dir/src/view/NodeGraphicsItem.cpp.o CMakeFiles/LogicGateSimulator.dir/src/view/PinGraphicsItem.cpp.o CMakeFiles/LogicGateSimulator.dir/src/view/SimulationCanvas.cpp.o CMakeFiles/LogicGateSimulator.dir/src/view/ToolbarWidget.cpp.o | /usr/lib/libQt6Widgets.so.6.8.3 /usr/lib/libQt6Gui.so.6.8.3 /usr/lib/libGLX.so /usr/lib/libOpenGL.so /usr/lib/libQt6Core.so.6.8.3 || LogicGateSimulator_autogen LogicGateSimulator_autogen_timestamp_deps
+build LogicGateSimulator: CXX_EXECUTABLE_LINKER__LogicGateSimulator_Debug CMakeFiles/LogicGateSimulator.dir/LogicGateSimulator_autogen/mocs_compilation.cpp.o CMakeFiles/LogicGateSimulator.dir/src/controller/ConnectionManager.cpp.o CMakeFiles/LogicGateSimulator.dir/src/controller/SimulationController.cpp.o CMakeFiles/LogicGateSimulator.dir/src/main.cpp.o CMakeFiles/LogicGateSimulator.dir/src/model/Circuit.cpp.o CMakeFiles/LogicGateSimulator.dir/src/model/Connection.cpp.o CMakeFiles/LogicGateSimulator.dir/src/model/LogicGate.cpp.o CMakeFiles/LogicGateSimulator.dir/src/model/Pin.cpp.o CMakeFiles/LogicGateSimulator.dir/src/model/gates/AndGate.cpp.o CMakeFiles/LogicGateSimulator.dir/src/model/gates/NandGate.cpp.o CMakeFiles/LogicGateSimulator.dir/src/model/gates/NorGate.cpp.o CMakeFiles/LogicGateSimulator.dir/src/model/gates/NotGate.cpp.o CMakeFiles/LogicGateSimulator.dir/src/model/gates/OrGate.cpp.o CMakeFiles/LogicGateSimulator.dir/src/model/gates/SinkNode.cpp.o CMakeFiles/LogicGateSimulator.dir/src/model/gates/SourceNode.cpp.o CMakeFiles/LogicGateSimulator.dir/src/model/gates/XorGate.cpp.o CMakeFiles/LogicGateSimulator.dir/src/view/ConnectionGraphicsItem.cpp.o CMakeFiles/LogicGateSimulator.dir/src/view/MainWindow.cpp.o CMakeFiles/LogicGateSimulator.dir/src/view/NodeGraphicsItem.cpp.o CMakeFiles/LogicGateSimulator.dir/src/view/PinGraphicsItem.cpp.o CMakeFiles/LogicGateSimulator.dir/src/view/SimulationCanvas.cpp.o CMakeFiles/LogicGateSimulator.dir/src/view/ToolbarWidget.cpp.o | /usr/lib/libQt6Widgets.so.6.8.3 /usr/lib/libQt6Gui.so.6.8.3 /usr/lib/libGLX.so /usr/lib/libOpenGL.so /usr/lib/libQt6Core.so.6.8.3 || LogicGateSimulator_autogen LogicGateSimulator_autogen_timestamp_deps
   FLAGS = -g
   LINK_LIBRARIES = /usr/lib/libQt6Widgets.so.6.8.3  /usr/lib/libQt6Gui.so.6.8.3  /usr/lib/libGLX.so  /usr/lib/libOpenGL.so  /usr/lib/libQt6Core.so.6.8.3
   OBJECT_DIR = CMakeFiles/LogicGateSimulator.dir

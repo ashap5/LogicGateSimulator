@@ -57,6 +57,10 @@ LogicGateSimulator_autogen/timestamp: \
 	/home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/Pin.h \
 	/home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/AndGate.cpp \
 	/home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/AndGate.h \
+	/home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/NandGate.cpp \
+	/home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/NandGate.h \
+	/home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/NorGate.cpp \
+	/home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/NorGate.h \
 	/home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/NotGate.cpp \
 	/home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/NotGate.h \
 	/home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/OrGate.cpp \
@@ -65,6 +69,8 @@ LogicGateSimulator_autogen/timestamp: \
 	/home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/SinkNode.h \
 	/home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/SourceNode.cpp \
 	/home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/SourceNode.h \
+	/home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/XorGate.cpp \
+	/home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/XorGate.h \
 	/home/pasha/CLionProjects/LogicGateSimulatorTest/src/view/ConnectionGraphicsItem.cpp \
 	/home/pasha/CLionProjects/LogicGateSimulatorTest/src/view/ConnectionGraphicsItem.h \
 	/home/pasha/CLionProjects/LogicGateSimulatorTest/src/view/MainWindow.cpp \

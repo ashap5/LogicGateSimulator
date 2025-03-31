@@ -36,6 +36,16 @@ namespace controller {
     void SimulationController::addSinkNode(const QPointF& pos) {
         addGate(new model::SinkNode(), pos);
     }
+    void SimulationController::addXorGate(const QPointF& pos) {
+        addGate(new model::XorGate(), pos);
+    }
+    void SimulationController::addNandGate(const QPointF& pos) {
+        addGate(new model::NandGate(), pos);
+    }
+
+    void SimulationController::addNorGate(const QPointF& pos) {
+        addGate(new model::NorGate(), pos);
+    }
 
     void SimulationController::addGate(model::LogicGate* gate, const QPointF& pos) {
         // Add to the model
@@ -128,4 +138,5 @@ namespace controller {
             }
         }
     }
+
 }

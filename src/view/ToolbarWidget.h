@@ -25,6 +25,9 @@ namespace view {
         void addSinkNode();
         void simulate();
         void clearCircuit();
+        void addXorGate();
+        void addNandGate();
+        void addNorGate();
 
         private slots:
             void handleButtonClick();
@@ -43,6 +46,9 @@ namespace view {
         QPushButton* sinkButton;
         QPushButton* simulateButton;
         QPushButton* clearButton;
+        QPushButton* xorGateButton;
+        QPushButton* nandGateButton;
+        QPushButton* norGateButton;
     };
 }
 

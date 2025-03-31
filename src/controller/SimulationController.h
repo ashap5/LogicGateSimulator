@@ -13,6 +13,9 @@
 #include "../model/gates/SourceNode.h"
 #include "../model/gates/SinkNode.h"
 #include "../view/NodeGraphicsItem.h"
+#include "../model/gates/XorGate.h"
+#include "../model/gates/NandGate.h"
+#include "../model/gates/NorGate.h"
 
 namespace controller {
     class ConnectionManager;
@@ -31,6 +34,10 @@ namespace controller {
         void addNotGate(const QPointF& pos);
         void addSourceNode(model::LogicState state, const QPointF& pos);
         void addSinkNode(const QPointF& pos);
+        void addXorGate(const QPointF& pos);
+        void addNandGate(const QPointF& pos);
+        void addNorGate(const QPointF& pos);
+
         void removeGate(view::NodeGraphicsItem* nodeItem);
 
         // Simulation control
