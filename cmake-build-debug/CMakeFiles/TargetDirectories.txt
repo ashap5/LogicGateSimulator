@@ -1,0 +1,5 @@
+/home/pasha/CLionProjects/LogicGateSimulatorTest/cmake-build-debug/CMakeFiles/LogicGateSimulator.dir
+/home/pasha/CLionProjects/LogicGateSimulatorTest/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/pasha/CLionProjects/LogicGateSimulatorTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/pasha/CLionProjects/LogicGateSimulatorTest/cmake-build-debug/CMakeFiles/LogicGateSimulator_autogen_timestamp_deps.dir
+/home/pasha/CLionProjects/LogicGateSimulatorTest/cmake-build-debug/CMakeFiles/LogicGateSimulator_autogen.dir

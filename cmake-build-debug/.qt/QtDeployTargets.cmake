@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_LogicGateSimulator_FILE /home/pasha/CLionProjects/LogicGateSimulatorTest/cmake-build-debug/LogicGateSimulator)
+set(__QT_DEPLOY_TARGET_LogicGateSimulator_TYPE EXECUTABLE)
