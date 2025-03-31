@@ -6,10 +6,13 @@
   /home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/LogicState.h \
   /home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/Pin.h \
   /home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/AndGate.h \
+  /home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/NandGate.h \
+  /home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/NorGate.h \
   /home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/NotGate.h \
   /home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/OrGate.h \
   /home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/SinkNode.h \
   /home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/SourceNode.h \
+  /home/pasha/CLionProjects/LogicGateSimulatorTest/src/model/gates/XorGate.h \
   /home/pasha/CLionProjects/LogicGateSimulatorTest/src/view/NodeGraphicsItem.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \

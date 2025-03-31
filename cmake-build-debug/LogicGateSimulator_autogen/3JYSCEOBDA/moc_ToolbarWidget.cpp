@@ -49,6 +49,9 @@ static constexpr auto qt_meta_stringdata_ZN4view13ToolbarWidgetE = QtMocHelpers:
     "addSinkNode",
     "simulate",
     "clearCircuit",
+    "addXorGate",
+    "addNandGate",
+    "addNorGate",
     "handleButtonClick"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
@@ -61,30 +64,36 @@ Q_CONSTINIT static const uint qt_meta_data_ZN4view13ToolbarWidgetE[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-       8,   14, // methods
+      11,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       7,       // signalCount
+      10,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   62,    2, 0x06,    1 /* Public */,
-       3,    0,   63,    2, 0x06,    2 /* Public */,
-       4,    0,   64,    2, 0x06,    3 /* Public */,
-       5,    1,   65,    2, 0x06,    4 /* Public */,
-       8,    0,   68,    2, 0x06,    6 /* Public */,
-       9,    0,   69,    2, 0x06,    7 /* Public */,
-      10,    0,   70,    2, 0x06,    8 /* Public */,
+       1,    0,   80,    2, 0x06,    1 /* Public */,
+       3,    0,   81,    2, 0x06,    2 /* Public */,
+       4,    0,   82,    2, 0x06,    3 /* Public */,
+       5,    1,   83,    2, 0x06,    4 /* Public */,
+       8,    0,   86,    2, 0x06,    6 /* Public */,
+       9,    0,   87,    2, 0x06,    7 /* Public */,
+      10,    0,   88,    2, 0x06,    8 /* Public */,
+      11,    0,   89,    2, 0x06,    9 /* Public */,
+      12,    0,   90,    2, 0x06,   10 /* Public */,
+      13,    0,   91,    2, 0x06,   11 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-      11,    0,   71,    2, 0x08,    9 /* Private */,
+      14,    0,   92,    2, 0x08,   12 /* Private */,
 
  // signals: parameters
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void, 0x80000000 | 6,    7,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -119,6 +128,12 @@ Q_CONSTINIT const QMetaObject view::ToolbarWidget::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'clearCircuit'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'addXorGate'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'addNandGate'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'addNorGate'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'handleButtonClick'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
@@ -137,7 +152,10 @@ void view::ToolbarWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, 
         case 4: _t->addSinkNode(); break;
         case 5: _t->simulate(); break;
         case 6: _t->clearCircuit(); break;
-        case 7: _t->handleButtonClick(); break;
+        case 7: _t->addXorGate(); break;
+        case 8: _t->addNandGate(); break;
+        case 9: _t->addNorGate(); break;
+        case 10: _t->handleButtonClick(); break;
         default: ;
         }
     }
@@ -192,6 +210,27 @@ void view::ToolbarWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, 
                 return;
             }
         }
+        {
+            using _q_method_type = void (ToolbarWidget::*)();
+            if (_q_method_type _q_method = &ToolbarWidget::addXorGate; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+                *result = 7;
+                return;
+            }
+        }
+        {
+            using _q_method_type = void (ToolbarWidget::*)();
+            if (_q_method_type _q_method = &ToolbarWidget::addNandGate; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+                *result = 8;
+                return;
+            }
+        }
+        {
+            using _q_method_type = void (ToolbarWidget::*)();
+            if (_q_method_type _q_method = &ToolbarWidget::addNorGate; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+                *result = 9;
+                return;
+            }
+        }
     }
 }
 
@@ -214,14 +253,14 @@ int view::ToolbarWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 8)
+        if (_id < 11)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 8;
+        _id -= 11;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 8)
+        if (_id < 11)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 8;
+        _id -= 11;
     }
     return _id;
 }
@@ -267,5 +306,23 @@ void view::ToolbarWidget::simulate()
 void view::ToolbarWidget::clearCircuit()
 {
     QMetaObject::activate(this, &staticMetaObject, 6, nullptr);
+}
+
+// SIGNAL 7
+void view::ToolbarWidget::addXorGate()
+{
+    QMetaObject::activate(this, &staticMetaObject, 7, nullptr);
+}
+
+// SIGNAL 8
+void view::ToolbarWidget::addNandGate()
+{
+    QMetaObject::activate(this, &staticMetaObject, 8, nullptr);
+}
+
+// SIGNAL 9
+void view::ToolbarWidget::addNorGate()
+{
+    QMetaObject::activate(this, &staticMetaObject, 9, nullptr);
 }
 QT_WARNING_POP
